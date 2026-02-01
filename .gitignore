@@ -21,3 +21,5 @@ xllibs/
 .DS_Store
 Thumbs.db
 
+.gitignore.swp
+.rs_user13.tstamp
