@@ -51,38 +51,39 @@ RTL
 ## 📂 Repository Structure
 
 counter_dft_atpg/
-├── README.md
+├── README.md                # Project documentation (IP-safe)
 ├── .gitignore
 │
-├── scripts/
-│ ├── counter_lab1.tcl # DFT & synthesis control script
-│ ├── counter_lab2.tcl # ATPG preparation flow
-│ ├── genus.cmd # Synthesis command file
-│ └── modus.cmd # ATPG command file
+├── scripts/                 # Synthesis, DFT & ATPG control scripts
+│   ├── counter_lab1.tcl
+│   ├── counter_lab2.tcl
+│   ├── genus.cmd
+│   └── modus.cmd
 │
-├── netlist/
-│ ├── counter.test_netlist.v # Scan-inserted netlist
-│ └── counter.FULLSCAN.pinassign
+├── netlist/                 # Scan-inserted design outputs
+│   ├── counter.test_netlist.v
+│   └── counter.FULLSCAN.pinassign
 │
-├── reports/
-│ ├── DFTsetup_final.rpt
-│ ├── DFTchains_final.rpt
-│ ├── DFTregs_final.rpt
-│ └── scanDEF.def
+├── reports/                 # DFT analysis reports
+│   ├── DFTsetup_final.rpt
+│   ├── DFTchains_final.rpt
+│   ├── DFTregs_final.rpt
+│   └── scanDEF.def
 │
-├── fv/
-│ └── counter/
-│ ├── rtl_to_fv_map.do
-│ ├── read_libs.tcl
-│ ├── fv_map.map.do
-│ └── fv_map.fv.json
+├── fv/                      # Formal verification (RTL vs scan netlist)
+│   └── counter/
+│       ├── rtl_to_fv_map.do
+│       ├── read_libs.tcl
+│       ├── fv_map.map.do
+│       └── fv_map.fv.json
 │
-├── MODUS_RUN_COUNTER/
-│ └── testresults/
-│ └── verilog/ # ATPG simulation models & vectors
+├── MODUS_RUN_COUNTER/       # ATPG execution & generated test artifacts
+│   └── testresults/
+│       └── verilog/         # ATPG vectors & simulation models
 │
 └── LIBS/
-└── README.md # Placeholder for proprietary libraries
+    └── README.md            # Placeholder (proprietary libraries excluded)
+
 ---
 
 ## 📊 DFT Highlights
@@ -106,35 +107,5 @@ Detailed results are available in the `reports/` directory.
 
 ---
 
-## 🔒 IP & Security Notice
-
-To maintain **academic and professional integrity**, this repository:
-
-- ❌ Does **NOT** include:
-  - Technology libraries
-  - Standard cell definitions
-  - Memory macros
-  - Timing libraries
-  - Tool installation paths
-  - Machine IP addresses or hostnames
-- ✅ Uses placeholders where proprietary inputs are required
-
-This makes the repository **safe for public sharing**.
-
----
-
-## 🎯 Learning Outcomes
-
-- Practical understanding of scan-based DFT
-- Hands-on ATPG flow exposure
-- Experience with industry-style tool scripting
-- Clean, version-controlled VLSI project structure
-
----
-
-## 📎 Disclaimer
-
-This project is for **educational and demonstrative purposes only**.  
-All proprietary elements have been removed or abstracted.
 
 
