@@ -1,0 +1,287 @@
+Reporting 4 scan chains (muxed_scan)
+ 
+Chain 1: AutoChain_1 
+  scan_in:      DFT_sdi_1 
+  scan_out:     DFT_sdo_1   
+  shift_enable: scan_enable (active high) 
+  clock_domain: scan_clk (edge: rise)
+  length: 64
+    bit 1 	count_reg[0]  <clk_test (rise)>  
+    bit 2 	count_reg[1]  <clk_test (rise)>  
+    bit 3 	count_reg[2]  <clk_test (rise)>  
+    bit 4 	count_reg[3]  <clk_test (rise)>  
+    bit 5 	count_reg[4]  <clk_test (rise)>  
+    bit 6 	count_reg[5]  <clk_test (rise)>  
+    bit 7 	count_reg[6]  <clk_test (rise)>  
+    bit 8 	count_reg[7]  <clk_test (rise)>  
+    bit 9 	count_reg[8]  <clk_test (rise)>  
+    bit 10 	count_reg[9]  <clk_test (rise)>  
+    bit 11 	count_reg[10]  <clk_test (rise)>  
+    bit 12 	count_reg[11]  <clk_test (rise)>  
+    bit 13 	count_reg[12]  <clk_test (rise)>  
+    bit 14 	count_reg[13]  <clk_test (rise)>  
+    bit 15 	count_reg[14]  <clk_test (rise)>  
+    bit 16 	count_reg[15]  <clk_test (rise)>  
+    bit 17 	count_reg[16]  <clk_test (rise)>  
+    bit 18 	count_reg[17]  <clk_test (rise)>  
+    bit 19 	count_reg[18]  <clk_test (rise)>  
+    bit 20 	count_reg[19]  <clk_test (rise)>  
+    bit 21 	count_reg[20]  <clk_test (rise)>  
+    bit 22 	count_reg[21]  <clk_test (rise)>  
+    bit 23 	count_reg[22]  <clk_test (rise)>  
+    bit 24 	count_reg[23]  <clk_test (rise)>  
+    bit 25 	count_reg[24]  <clk_test (rise)>  
+    bit 26 	count_reg[25]  <clk_test (rise)>  
+    bit 27 	count_reg[26]  <clk_test (rise)>  
+    bit 28 	count_reg[27]  <clk_test (rise)>  
+    bit 29 	count_reg[28]  <clk_test (rise)>  
+    bit 30 	count_reg[29]  <clk_test (rise)>  
+    bit 31 	count_reg[30]  <clk_test (rise)>  
+    bit 32 	count_reg[31]  <clk_test (rise)>  
+    bit 33 	count_reg[32]  <clk_test (rise)>  
+    bit 34 	count_reg[33]  <clk_test (rise)>  
+    bit 35 	count_reg[34]  <clk_test (rise)>  
+    bit 36 	count_reg[35]  <clk_test (rise)>  
+    bit 37 	count_reg[36]  <clk_test (rise)>  
+    bit 38 	count_reg[37]  <clk_test (rise)>  
+    bit 39 	count_reg[38]  <clk_test (rise)>  
+    bit 40 	count_reg[39]  <clk_test (rise)>  
+    bit 41 	count_reg[40]  <clk_test (rise)>  
+    bit 42 	count_reg[41]  <clk_test (rise)>  
+    bit 43 	count_reg[42]  <clk_test (rise)>  
+    bit 44 	count_reg[43]  <clk_test (rise)>  
+    bit 45 	count_reg[44]  <clk_test (rise)>  
+    bit 46 	count_reg[45]  <clk_test (rise)>  
+    bit 47 	count_reg[46]  <clk_test (rise)>  
+    bit 48 	count_reg[47]  <clk_test (rise)>  
+    bit 49 	count_reg[48]  <clk_test (rise)>  
+    bit 50 	count_reg[49]  <clk_test (rise)>  
+    bit 51 	count_reg[50]  <clk_test (rise)>  
+    bit 52 	count_reg[51]  <clk_test (rise)>  
+    bit 53 	count_reg[52]  <clk_test (rise)>  
+    bit 54 	count_reg[53]  <clk_test (rise)>  
+    bit 55 	count_reg[54]  <clk_test (rise)>  
+    bit 56 	count_reg[55]  <clk_test (rise)>  
+    bit 57 	count_reg[56]  <clk_test (rise)>  
+    bit 58 	count_reg[57]  <clk_test (rise)>  
+    bit 59 	count_reg[58]  <clk_test (rise)>  
+    bit 60 	count_reg[59]  <clk_test (rise)>  
+    bit 61 	count_reg[60]  <clk_test (rise)>  
+    bit 62 	count_reg[61]  <clk_test (rise)>  
+    bit 63 	count_reg[62]  <clk_test (rise)>  
+    bit 64 	count_reg[63]  <clk_test (rise)>  
+------------------------
+Chain 2: AutoChain_2 
+  scan_in:      DFT_sdi_2 
+  scan_out:     DFT_sdo_2   
+  shift_enable: scan_enable (active high) 
+  clock_domain: scan_clk (edge: rise)
+  length: 64
+    bit 1 	count_reg[64]  <clk_test (rise)>  
+    bit 2 	count_reg[65]  <clk_test (rise)>  
+    bit 3 	count_reg[66]  <clk_test (rise)>  
+    bit 4 	count_reg[67]  <clk_test (rise)>  
+    bit 5 	count_reg[68]  <clk_test (rise)>  
+    bit 6 	count_reg[69]  <clk_test (rise)>  
+    bit 7 	count_reg[70]  <clk_test (rise)>  
+    bit 8 	count_reg[71]  <clk_test (rise)>  
+    bit 9 	count_reg[72]  <clk_test (rise)>  
+    bit 10 	count_reg[73]  <clk_test (rise)>  
+    bit 11 	count_reg[74]  <clk_test (rise)>  
+    bit 12 	count_reg[75]  <clk_test (rise)>  
+    bit 13 	count_reg[76]  <clk_test (rise)>  
+    bit 14 	count_reg[77]  <clk_test (rise)>  
+    bit 15 	count_reg[78]  <clk_test (rise)>  
+    bit 16 	count_reg[79]  <clk_test (rise)>  
+    bit 17 	count_reg[80]  <clk_test (rise)>  
+    bit 18 	count_reg[81]  <clk_test (rise)>  
+    bit 19 	count_reg[82]  <clk_test (rise)>  
+    bit 20 	count_reg[83]  <clk_test (rise)>  
+    bit 21 	count_reg[84]  <clk_test (rise)>  
+    bit 22 	count_reg[85]  <clk_test (rise)>  
+    bit 23 	count_reg[86]  <clk_test (rise)>  
+    bit 24 	count_reg[87]  <clk_test (rise)>  
+    bit 25 	count_reg[88]  <clk_test (rise)>  
+    bit 26 	count_reg[89]  <clk_test (rise)>  
+    bit 27 	count_reg[90]  <clk_test (rise)>  
+    bit 28 	count_reg[91]  <clk_test (rise)>  
+    bit 29 	count_reg[92]  <clk_test (rise)>  
+    bit 30 	count_reg[93]  <clk_test (rise)>  
+    bit 31 	count_reg[94]  <clk_test (rise)>  
+    bit 32 	count_reg[95]  <clk_test (rise)>  
+    bit 33 	count_reg[96]  <clk_test (rise)>  
+    bit 34 	count_reg[97]  <clk_test (rise)>  
+    bit 35 	count_reg[98]  <clk_test (rise)>  
+    bit 36 	count_reg[99]  <clk_test (rise)>  
+    bit 37 	count_reg[100]  <clk_test (rise)>  
+    bit 38 	count_reg[101]  <clk_test (rise)>  
+    bit 39 	count_reg[102]  <clk_test (rise)>  
+    bit 40 	count_reg[103]  <clk_test (rise)>  
+    bit 41 	count_reg[104]  <clk_test (rise)>  
+    bit 42 	count_reg[105]  <clk_test (rise)>  
+    bit 43 	count_reg[106]  <clk_test (rise)>  
+    bit 44 	count_reg[107]  <clk_test (rise)>  
+    bit 45 	count_reg[108]  <clk_test (rise)>  
+    bit 46 	count_reg[109]  <clk_test (rise)>  
+    bit 47 	count_reg[110]  <clk_test (rise)>  
+    bit 48 	count_reg[111]  <clk_test (rise)>  
+    bit 49 	count_reg[112]  <clk_test (rise)>  
+    bit 50 	count_reg[113]  <clk_test (rise)>  
+    bit 51 	count_reg[114]  <clk_test (rise)>  
+    bit 52 	count_reg[115]  <clk_test (rise)>  
+    bit 53 	count_reg[116]  <clk_test (rise)>  
+    bit 54 	count_reg[117]  <clk_test (rise)>  
+    bit 55 	count_reg[118]  <clk_test (rise)>  
+    bit 56 	count_reg[119]  <clk_test (rise)>  
+    bit 57 	count_reg[120]  <clk_test (rise)>  
+    bit 58 	count_reg[121]  <clk_test (rise)>  
+    bit 59 	count_reg[122]  <clk_test (rise)>  
+    bit 60 	count_reg[123]  <clk_test (rise)>  
+    bit 61 	count_reg[124]  <clk_test (rise)>  
+    bit 62 	count_reg[125]  <clk_test (rise)>  
+    bit 63 	count_reg[126]  <clk_test (rise)>  
+    bit 64 	count_reg[127]  <clk_test (rise)>  
+------------------------
+Chain 3: AutoChain_3 
+  scan_in:      DFT_sdi_3 
+  scan_out:     DFT_sdo_3   
+  shift_enable: scan_enable (active high) 
+  clock_domain: scan_clk (edge: rise)
+  length: 64
+    bit 1 	count_reg[128]  <clk_test (rise)>  
+    bit 2 	count_reg[129]  <clk_test (rise)>  
+    bit 3 	count_reg[130]  <clk_test (rise)>  
+    bit 4 	count_reg[131]  <clk_test (rise)>  
+    bit 5 	count_reg[132]  <clk_test (rise)>  
+    bit 6 	count_reg[133]  <clk_test (rise)>  
+    bit 7 	count_reg[134]  <clk_test (rise)>  
+    bit 8 	count_reg[135]  <clk_test (rise)>  
+    bit 9 	count_reg[136]  <clk_test (rise)>  
+    bit 10 	count_reg[137]  <clk_test (rise)>  
+    bit 11 	count_reg[138]  <clk_test (rise)>  
+    bit 12 	count_reg[139]  <clk_test (rise)>  
+    bit 13 	count_reg[140]  <clk_test (rise)>  
+    bit 14 	count_reg[141]  <clk_test (rise)>  
+    bit 15 	count_reg[142]  <clk_test (rise)>  
+    bit 16 	count_reg[143]  <clk_test (rise)>  
+    bit 17 	count_reg[144]  <clk_test (rise)>  
+    bit 18 	count_reg[145]  <clk_test (rise)>  
+    bit 19 	count_reg[146]  <clk_test (rise)>  
+    bit 20 	count_reg[147]  <clk_test (rise)>  
+    bit 21 	count_reg[148]  <clk_test (rise)>  
+    bit 22 	count_reg[149]  <clk_test (rise)>  
+    bit 23 	count_reg[150]  <clk_test (rise)>  
+    bit 24 	count_reg[151]  <clk_test (rise)>  
+    bit 25 	count_reg[152]  <clk_test (rise)>  
+    bit 26 	count_reg[153]  <clk_test (rise)>  
+    bit 27 	count_reg[154]  <clk_test (rise)>  
+    bit 28 	count_reg[155]  <clk_test (rise)>  
+    bit 29 	count_reg[156]  <clk_test (rise)>  
+    bit 30 	count_reg[157]  <clk_test (rise)>  
+    bit 31 	count_reg[158]  <clk_test (rise)>  
+    bit 32 	count_reg[159]  <clk_test (rise)>  
+    bit 33 	count_reg[160]  <clk_test (rise)>  
+    bit 34 	count_reg[161]  <clk_test (rise)>  
+    bit 35 	count_reg[162]  <clk_test (rise)>  
+    bit 36 	count_reg[163]  <clk_test (rise)>  
+    bit 37 	count_reg[164]  <clk_test (rise)>  
+    bit 38 	count_reg[165]  <clk_test (rise)>  
+    bit 39 	count_reg[166]  <clk_test (rise)>  
+    bit 40 	count_reg[167]  <clk_test (rise)>  
+    bit 41 	count_reg[168]  <clk_test (rise)>  
+    bit 42 	count_reg[169]  <clk_test (rise)>  
+    bit 43 	count_reg[170]  <clk_test (rise)>  
+    bit 44 	count_reg[171]  <clk_test (rise)>  
+    bit 45 	count_reg[172]  <clk_test (rise)>  
+    bit 46 	count_reg[173]  <clk_test (rise)>  
+    bit 47 	count_reg[174]  <clk_test (rise)>  
+    bit 48 	count_reg[175]  <clk_test (rise)>  
+    bit 49 	count_reg[176]  <clk_test (rise)>  
+    bit 50 	count_reg[177]  <clk_test (rise)>  
+    bit 51 	count_reg[178]  <clk_test (rise)>  
+    bit 52 	count_reg[179]  <clk_test (rise)>  
+    bit 53 	count_reg[180]  <clk_test (rise)>  
+    bit 54 	count_reg[181]  <clk_test (rise)>  
+    bit 55 	count_reg[182]  <clk_test (rise)>  
+    bit 56 	count_reg[183]  <clk_test (rise)>  
+    bit 57 	count_reg[184]  <clk_test (rise)>  
+    bit 58 	count_reg[185]  <clk_test (rise)>  
+    bit 59 	count_reg[186]  <clk_test (rise)>  
+    bit 60 	count_reg[187]  <clk_test (rise)>  
+    bit 61 	count_reg[188]  <clk_test (rise)>  
+    bit 62 	count_reg[189]  <clk_test (rise)>  
+    bit 63 	count_reg[190]  <clk_test (rise)>  
+    bit 64 	count_reg[191]  <clk_test (rise)>  
+------------------------
+Chain 4: AutoChain_4 
+  scan_in:      DFT_sdi_4 
+  scan_out:     DFT_sdo_4   
+  shift_enable: scan_enable (active high) 
+  clock_domain: scan_clk (edge: rise)
+  length: 64
+    bit 1 	count_reg[192]  <clk_test (rise)>  
+    bit 2 	count_reg[193]  <clk_test (rise)>  
+    bit 3 	count_reg[194]  <clk_test (rise)>  
+    bit 4 	count_reg[195]  <clk_test (rise)>  
+    bit 5 	count_reg[196]  <clk_test (rise)>  
+    bit 6 	count_reg[197]  <clk_test (rise)>  
+    bit 7 	count_reg[198]  <clk_test (rise)>  
+    bit 8 	count_reg[199]  <clk_test (rise)>  
+    bit 9 	count_reg[200]  <clk_test (rise)>  
+    bit 10 	count_reg[201]  <clk_test (rise)>  
+    bit 11 	count_reg[202]  <clk_test (rise)>  
+    bit 12 	count_reg[203]  <clk_test (rise)>  
+    bit 13 	count_reg[204]  <clk_test (rise)>  
+    bit 14 	count_reg[205]  <clk_test (rise)>  
+    bit 15 	count_reg[206]  <clk_test (rise)>  
+    bit 16 	count_reg[207]  <clk_test (rise)>  
+    bit 17 	count_reg[208]  <clk_test (rise)>  
+    bit 18 	count_reg[209]  <clk_test (rise)>  
+    bit 19 	count_reg[210]  <clk_test (rise)>  
+    bit 20 	count_reg[211]  <clk_test (rise)>  
+    bit 21 	count_reg[212]  <clk_test (rise)>  
+    bit 22 	count_reg[213]  <clk_test (rise)>  
+    bit 23 	count_reg[214]  <clk_test (rise)>  
+    bit 24 	count_reg[215]  <clk_test (rise)>  
+    bit 25 	count_reg[216]  <clk_test (rise)>  
+    bit 26 	count_reg[217]  <clk_test (rise)>  
+    bit 27 	count_reg[218]  <clk_test (rise)>  
+    bit 28 	count_reg[219]  <clk_test (rise)>  
+    bit 29 	count_reg[220]  <clk_test (rise)>  
+    bit 30 	count_reg[221]  <clk_test (rise)>  
+    bit 31 	count_reg[222]  <clk_test (rise)>  
+    bit 32 	count_reg[223]  <clk_test (rise)>  
+    bit 33 	count_reg[224]  <clk_test (rise)>  
+    bit 34 	count_reg[225]  <clk_test (rise)>  
+    bit 35 	count_reg[226]  <clk_test (rise)>  
+    bit 36 	count_reg[227]  <clk_test (rise)>  
+    bit 37 	count_reg[228]  <clk_test (rise)>  
+    bit 38 	count_reg[229]  <clk_test (rise)>  
+    bit 39 	count_reg[230]  <clk_test (rise)>  
+    bit 40 	count_reg[231]  <clk_test (rise)>  
+    bit 41 	count_reg[232]  <clk_test (rise)>  
+    bit 42 	count_reg[233]  <clk_test (rise)>  
+    bit 43 	count_reg[234]  <clk_test (rise)>  
+    bit 44 	count_reg[235]  <clk_test (rise)>  
+    bit 45 	count_reg[236]  <clk_test (rise)>  
+    bit 46 	count_reg[237]  <clk_test (rise)>  
+    bit 47 	count_reg[238]  <clk_test (rise)>  
+    bit 48 	count_reg[239]  <clk_test (rise)>  
+    bit 49 	count_reg[240]  <clk_test (rise)>  
+    bit 50 	count_reg[241]  <clk_test (rise)>  
+    bit 51 	count_reg[242]  <clk_test (rise)>  
+    bit 52 	count_reg[243]  <clk_test (rise)>  
+    bit 53 	count_reg[244]  <clk_test (rise)>  
+    bit 54 	count_reg[245]  <clk_test (rise)>  
+    bit 55 	count_reg[246]  <clk_test (rise)>  
+    bit 56 	count_reg[247]  <clk_test (rise)>  
+    bit 57 	count_reg[248]  <clk_test (rise)>  
+    bit 58 	count_reg[249]  <clk_test (rise)>  
+    bit 59 	count_reg[250]  <clk_test (rise)>  
+    bit 60 	count_reg[251]  <clk_test (rise)>  
+    bit 61 	count_reg[252]  <clk_test (rise)>  
+    bit 62 	count_reg[253]  <clk_test (rise)>  
+    bit 63 	count_reg[254]  <clk_test (rise)>  
+    bit 64 	count_reg[255]  <clk_test (rise)>  
+------------------------
+

@@ -1,0 +1,23 @@
+# Cadence databases
+Inca_libs_*
+tbdata/
+testresults/logs/
+
+# Logs
+*.log
+*.history
+
+# Simulation artifacts
+*.pak
+*.ts
+*.gz
+
+# Temp / build
+temp/
+worklib/
+xllibs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+

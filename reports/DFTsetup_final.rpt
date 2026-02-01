@@ -1,0 +1,137 @@
+
+Design Name
+===========
+    counter
+
+Scan Style
+==========
+    muxed_scan
+Design has a valid DFT rule check status
+
+Global Constraints
+==================
+    Minimum number of scan chains: 4
+    Maximum length of scan chains: no_value
+    Lock-up element type: preferred_level_sensitive
+    Mix clock edges in scan chain: false
+    Prefix for unnamed scan objects: DFT_
+
+Test signal objects
+===================
+    shift_enable: 
+          object name: scan_en 
+          pin name: scan_enable 
+          hookup_pin: scan_enable 
+          hookup_polarity: non_inverted 
+          function: shift_enable 
+          active: high 
+          ideal: false 
+          user defined: true
+
+    test_mode: 
+          object name: test_mode 
+          pin name: TM 
+          hookup_pin: TM 
+          hookup_polarity: non_inverted 
+          function: test_mode 
+          active: high 
+          ideal: false 
+          user defined: true
+
+    test_mode: 
+          object name: reset 
+          pin name: reset 
+          hookup_pin: reset 
+          hookup_polarity: non_inverted 
+          function: async_set_reset 
+          active: high 
+          ideal: false 
+          user defined: true
+
+
+Test clock objects
+==================
+    test_clock:
+          object name: scan_clk 
+          test_clock_domain: scan_clk 
+          user defined: true 
+          source: clk_test  
+          root source: clk_test  
+          root source polarity: non_inverting
+          hookup_pin: clk_test 
+          period: 50000.0
+
+
+DFT controllable objects
+========================
+
+DFT don't scan objects
+======================
+
+DFT abstract don't scan objects
+===============================
+
+DFT scan segment constraints
+============================
+
+DFT scan chain constraints
+==========================
+
+DFT actual scan chains
+======================
+    Actual Chain:
+          object name: AutoChain_1 
+          scan-in: DFT_sdi_1 
+          scan-in hookup_pin: DFT_sdi_1 
+          scan-out: DFT_sdo_1 
+          scan-out hookup_pin: DFT_sdo_1 
+          shared out: false
+          shift_enable: scan_enable 
+          length: 64
+          segment objects: none
+          analyzed: false
+          test_clock domain: scan_clk
+          test_clock edge: rise
+
+    Actual Chain:
+          object name: AutoChain_2 
+          scan-in: DFT_sdi_2 
+          scan-in hookup_pin: DFT_sdi_2 
+          scan-out: DFT_sdo_2 
+          scan-out hookup_pin: DFT_sdo_2 
+          shared out: false
+          shift_enable: scan_enable 
+          length: 64
+          segment objects: none
+          analyzed: false
+          test_clock domain: scan_clk
+          test_clock edge: rise
+
+    Actual Chain:
+          object name: AutoChain_3 
+          scan-in: DFT_sdi_3 
+          scan-in hookup_pin: DFT_sdi_3 
+          scan-out: DFT_sdo_3 
+          scan-out hookup_pin: DFT_sdo_3 
+          shared out: false
+          shift_enable: scan_enable 
+          length: 64
+          segment objects: none
+          analyzed: false
+          test_clock domain: scan_clk
+          test_clock edge: rise
+
+    Actual Chain:
+          object name: AutoChain_4 
+          scan-in: DFT_sdi_4 
+          scan-in hookup_pin: DFT_sdi_4 
+          scan-out: DFT_sdo_4 
+          scan-out hookup_pin: DFT_sdo_4 
+          shared out: false
+          shift_enable: scan_enable 
+          length: 64
+          segment objects: none
+          analyzed: false
+          test_clock domain: scan_clk
+          test_clock edge: rise
+
