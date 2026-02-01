@@ -84,7 +84,7 @@ counter_dft_atpg/
 │
 └── LIBS/
     └── README.md            # Placeholder (proprietary libraries excluded)
-
+```
 ---
 
 ## 📊 DFT Highlights
