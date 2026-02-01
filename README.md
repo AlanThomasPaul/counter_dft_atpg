@@ -50,6 +50,7 @@ RTL
 
 ## 📂 Repository Structure
 
+```text
 counter_dft_atpg/
 ├── README.md                # Project documentation (IP-safe)
 ├── .gitignore
